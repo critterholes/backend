@@ -1,0 +1,19 @@
+{
+  "name": "vercel-faucet-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vercel Serverless Function Faucet Backend",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "dependencies": {
+    "ethers": "^6.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@vercel/node": "^3.2.0",
+    "typescript": "^5.5.3",
+    "vercel": "^35.2.0"
+  }
+}
